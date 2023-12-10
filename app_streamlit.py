@@ -7,9 +7,6 @@ import streamlit as st
 
 df = pd.read_csv("telco_customer_churn.csv")
 
-orginal_data = pd.read_csv('data.csv', sep=',')
-data = orginal_data.copy(deep=True)
-
 st.header("Telco Customer Churn")
 # 
 st.markdown(

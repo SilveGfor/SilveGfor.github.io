@@ -19,7 +19,6 @@ def t():
 def departed_clients():
     return render_template('departed_clients.html')
 
-        
 
 if __name__ == '__main__':
     app.run(debug=True)

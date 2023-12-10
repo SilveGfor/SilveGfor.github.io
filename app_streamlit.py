@@ -1,11 +1,8 @@
 import pandas as pd
-import numpy as np
-import matplotlib
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.model_selection import train_test_split, cross_val_score
+# import numpy as np
+# from sklearn.model_selection import train_test_split, cross_val_score
 
-import plotly.graph_objects as go
+# import plotly.graph_objects as go
 
 df = pd.read_csv("telco_customer_churn.csv")
 
